@@ -10,7 +10,9 @@ const b_content = document.getElementById('b_content');
 if (b_content) {
     b_content.style.position = 'relative';
     var heidge = b_header.clientHeight;
-    b_content.style.top = `${heidge}px`;
+    if (heidge != null) {
+        b_content.style.top = `${heidge}px`;
+    }
 }
 
 const b_context = document.getElementById('b_context');
