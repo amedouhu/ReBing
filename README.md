@@ -16,9 +16,9 @@ Bingを改良するブラウザ拡張機能。
 
 **動作環境**
 
-・MicrosoftEdge
+・Microsoft Edge (Chromium版)
 
-・Chrome
+・Google Chrome
 
 ・その他Chromium系のブラウザで動作する場合があります。
 
